@@ -1,7 +1,11 @@
 Controls:
+
 Left Click: Place Start / End / Barriers
+
 Right Click: Erase
+
 Space: Run the Visualizer
+
 C: Clear the Grid
 
 I developed this project to gain a deeper understanding of how pathfinding algorithms work in a 2D environment. While many games use A* logic for NPC movement, I wanted to build a tool that actually shows the process in real-time. Using Pygame, I created an interactive grid where users can place a start point, an end point, and draw walls or obstacles. The program then calculates the most efficient route between the two points, visually highlighting the search area and the final path discovered by the algorithm.
